@@ -1,0 +1,253 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\R-56 Robin\\Projects\\MVC Projects\\ID-1279739\\MVC_Project_FoodOrder\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C4F623-00E8-449B-9CC8-A2F545E8FC00}|MVC_Project_FoodOrder\\MVC_Project_FoodOrder.csproj|f:\\r-56 robin\\projects\\mvc projects\\id-1279739\\mvc_project_foodorder\\mvc_project_foodorder\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6C4F623-00E8-449B-9CC8-A2F545E8FC00}|MVC_Project_FoodOrder\\MVC_Project_FoodOrder.csproj|solutionrelative:mvc_project_foodorder\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C4F623-00E8-449B-9CC8-A2F545E8FC00}|MVC_Project_FoodOrder\\MVC_Project_FoodOrder.csproj|F:\\R-56 Robin\\Projects\\MVC Projects\\ID-1279739\\MVC_Project_FoodOrder\\mvc_project_foodorder\\views\\groupings\\groupingbyfoodname.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6C4F623-00E8-449B-9CC8-A2F545E8FC00}|MVC_Project_FoodOrder\\MVC_Project_FoodOrder.csproj|solutionrelative:mvc_project_foodorder\\views\\groupings\\groupingbyfoodname.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C4F623-00E8-449B-9CC8-A2F545E8FC00}|MVC_Project_FoodOrder\\MVC_Project_FoodOrder.csproj|F:\\R-56 Robin\\Projects\\MVC Projects\\ID-1279739\\MVC_Project_FoodOrder\\mvc_project_foodorder\\views\\groupings\\groupingbyordertype.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6C4F623-00E8-449B-9CC8-A2F545E8FC00}|MVC_Project_FoodOrder\\MVC_Project_FoodOrder.csproj|solutionrelative:mvc_project_foodorder\\views\\groupings\\groupingbyordertype.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C4F623-00E8-449B-9CC8-A2F545E8FC00}|MVC_Project_FoodOrder\\MVC_Project_FoodOrder.csproj|F:\\R-56 Robin\\Projects\\MVC Projects\\ID-1279739\\MVC_Project_FoodOrder\\mvc_project_foodorder\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6C4F623-00E8-449B-9CC8-A2F545E8FC00}|MVC_Project_FoodOrder\\MVC_Project_FoodOrder.csproj|solutionrelative:mvc_project_foodorder\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C4F623-00E8-449B-9CC8-A2F545E8FC00}|MVC_Project_FoodOrder\\MVC_Project_FoodOrder.csproj|F:\\R-56 Robin\\Projects\\MVC Projects\\ID-1279739\\MVC_Project_FoodOrder\\mvc_project_foodorder\\views\\fooditems\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6C4F623-00E8-449B-9CC8-A2F545E8FC00}|MVC_Project_FoodOrder\\MVC_Project_FoodOrder.csproj|solutionrelative:mvc_project_foodorder\\views\\fooditems\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C4F623-00E8-449B-9CC8-A2F545E8FC00}|MVC_Project_FoodOrder\\MVC_Project_FoodOrder.csproj|F:\\R-56 Robin\\Projects\\MVC Projects\\ID-1279739\\MVC_Project_FoodOrder\\mvc_project_foodorder\\controllers\\groupingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C4F623-00E8-449B-9CC8-A2F545E8FC00}|MVC_Project_FoodOrder\\MVC_Project_FoodOrder.csproj|solutionrelative:mvc_project_foodorder\\controllers\\groupingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C4F623-00E8-449B-9CC8-A2F545E8FC00}|MVC_Project_FoodOrder\\MVC_Project_FoodOrder.csproj|F:\\R-56 Robin\\Projects\\MVC Projects\\ID-1279739\\MVC_Project_FoodOrder\\mvc_project_foodorder\\viewmodels\\groupeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C4F623-00E8-449B-9CC8-A2F545E8FC00}|MVC_Project_FoodOrder\\MVC_Project_FoodOrder.csproj|solutionrelative:mvc_project_foodorder\\viewmodels\\groupeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C4F623-00E8-449B-9CC8-A2F545E8FC00}|MVC_Project_FoodOrder\\MVC_Project_FoodOrder.csproj|F:\\R-56 Robin\\Projects\\MVC Projects\\ID-1279739\\MVC_Project_FoodOrder\\mvc_project_foodorder\\controllers\\fooditemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C4F623-00E8-449B-9CC8-A2F545E8FC00}|MVC_Project_FoodOrder\\MVC_Project_FoodOrder.csproj|solutionrelative:mvc_project_foodorder\\controllers\\fooditemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C4F623-00E8-449B-9CC8-A2F545E8FC00}|MVC_Project_FoodOrder\\MVC_Project_FoodOrder.csproj|F:\\R-56 Robin\\Projects\\MVC Projects\\ID-1279739\\MVC_Project_FoodOrder\\mvc_project_foodorder\\views\\aggregates\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6C4F623-00E8-449B-9CC8-A2F545E8FC00}|MVC_Project_FoodOrder\\MVC_Project_FoodOrder.csproj|solutionrelative:mvc_project_foodorder\\views\\aggregates\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C4F623-00E8-449B-9CC8-A2F545E8FC00}|MVC_Project_FoodOrder\\MVC_Project_FoodOrder.csproj|F:\\R-56 Robin\\Projects\\MVC Projects\\ID-1279739\\MVC_Project_FoodOrder\\mvc_project_foodorder\\controllers\\aggregatescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C4F623-00E8-449B-9CC8-A2F545E8FC00}|MVC_Project_FoodOrder\\MVC_Project_FoodOrder.csproj|solutionrelative:mvc_project_foodorder\\controllers\\aggregatescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C4F623-00E8-449B-9CC8-A2F545E8FC00}|MVC_Project_FoodOrder\\MVC_Project_FoodOrder.csproj|F:\\R-56 Robin\\Projects\\MVC Projects\\ID-1279739\\MVC_Project_FoodOrder\\mvc_project_foodorder\\migrations\\contexta\\202401270637037_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C4F623-00E8-449B-9CC8-A2F545E8FC00}|MVC_Project_FoodOrder\\MVC_Project_FoodOrder.csproj|solutionrelative:mvc_project_foodorder\\migrations\\contexta\\202401270637037_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C4F623-00E8-449B-9CC8-A2F545E8FC00}|MVC_Project_FoodOrder\\MVC_Project_FoodOrder.csproj|F:\\R-56 Robin\\Projects\\MVC Projects\\ID-1279739\\MVC_Project_FoodOrder\\mvc_project_foodorder\\views\\fooditems\\_createform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6C4F623-00E8-449B-9CC8-A2F545E8FC00}|MVC_Project_FoodOrder\\MVC_Project_FoodOrder.csproj|solutionrelative:mvc_project_foodorder\\views\\fooditems\\_createform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C4F623-00E8-449B-9CC8-A2F545E8FC00}|MVC_Project_FoodOrder\\MVC_Project_FoodOrder.csproj|F:\\R-56 Robin\\Projects\\MVC Projects\\ID-1279739\\MVC_Project_FoodOrder\\mvc_project_foodorder\\views\\fooditems\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6C4F623-00E8-449B-9CC8-A2F545E8FC00}|MVC_Project_FoodOrder\\MVC_Project_FoodOrder.csproj|solutionrelative:mvc_project_foodorder\\views\\fooditems\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C4F623-00E8-449B-9CC8-A2F545E8FC00}|MVC_Project_FoodOrder\\MVC_Project_FoodOrder.csproj|F:\\R-56 Robin\\Projects\\MVC Projects\\ID-1279739\\MVC_Project_FoodOrder\\mvc_project_foodorder\\migrations\\contextb\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C4F623-00E8-449B-9CC8-A2F545E8FC00}|MVC_Project_FoodOrder\\MVC_Project_FoodOrder.csproj|solutionrelative:mvc_project_foodorder\\migrations\\contextb\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "F:\\R-56 Robin\\Projects\\MVC Projects\\ID-1279739\\MVC_Project_FoodOrder\\MVC_Project_FoodOrder\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MVC_Project_FoodOrder\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "F:\\R-56 Robin\\Projects\\MVC Projects\\ID-1279739\\MVC_Project_FoodOrder\\MVC_Project_FoodOrder\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MVC_Project_FoodOrder\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAC8AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-05T06:03:51.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GroupingByOrderType.cshtml",
+              "DocumentMoniker": "F:\\R-56 Robin\\Projects\\MVC Projects\\ID-1279739\\MVC_Project_FoodOrder\\MVC_Project_FoodOrder\\Views\\Groupings\\GroupingByOrderType.cshtml",
+              "RelativeDocumentMoniker": "MVC_Project_FoodOrder\\Views\\Groupings\\GroupingByOrderType.cshtml",
+              "ToolTip": "F:\\R-56 Robin\\Projects\\MVC Projects\\ID-1279739\\MVC_Project_FoodOrder\\MVC_Project_FoodOrder\\Views\\Groupings\\GroupingByOrderType.cshtml",
+              "RelativeToolTip": "MVC_Project_FoodOrder\\Views\\Groupings\\GroupingByOrderType.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACcAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-05-05T06:03:51.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GroupingByFoodName.cshtml",
+              "DocumentMoniker": "F:\\R-56 Robin\\Projects\\MVC Projects\\ID-1279739\\MVC_Project_FoodOrder\\MVC_Project_FoodOrder\\Views\\Groupings\\GroupingByFoodName.cshtml",
+              "RelativeDocumentMoniker": "MVC_Project_FoodOrder\\Views\\Groupings\\GroupingByFoodName.cshtml",
+              "ToolTip": "F:\\R-56 Robin\\Projects\\MVC Projects\\ID-1279739\\MVC_Project_FoodOrder\\MVC_Project_FoodOrder\\Views\\Groupings\\GroupingByFoodName.cshtml",
+              "RelativeToolTip": "MVC_Project_FoodOrder\\Views\\Groupings\\GroupingByFoodName.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACcAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-05-05T06:03:51.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GroupingsController.cs",
+              "DocumentMoniker": "F:\\R-56 Robin\\Projects\\MVC Projects\\ID-1279739\\MVC_Project_FoodOrder\\MVC_Project_FoodOrder\\Controllers\\GroupingsController.cs",
+              "RelativeDocumentMoniker": "MVC_Project_FoodOrder\\Controllers\\GroupingsController.cs",
+              "ToolTip": "F:\\R-56 Robin\\Projects\\MVC Projects\\ID-1279739\\MVC_Project_FoodOrder\\MVC_Project_FoodOrder\\Controllers\\GroupingsController.cs",
+              "RelativeToolTip": "MVC_Project_FoodOrder\\Controllers\\GroupingsController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T06:03:51.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GroupedData.cs",
+              "DocumentMoniker": "F:\\R-56 Robin\\Projects\\MVC Projects\\ID-1279739\\MVC_Project_FoodOrder\\MVC_Project_FoodOrder\\ViewModels\\GroupedData.cs",
+              "RelativeDocumentMoniker": "MVC_Project_FoodOrder\\ViewModels\\GroupedData.cs",
+              "ToolTip": "F:\\R-56 Robin\\Projects\\MVC Projects\\ID-1279739\\MVC_Project_FoodOrder\\MVC_Project_FoodOrder\\ViewModels\\GroupedData.cs",
+              "RelativeToolTip": "MVC_Project_FoodOrder\\ViewModels\\GroupedData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T06:03:51.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_CreateForm.cshtml",
+              "DocumentMoniker": "F:\\R-56 Robin\\Projects\\MVC Projects\\ID-1279739\\MVC_Project_FoodOrder\\MVC_Project_FoodOrder\\Views\\FoodItems\\_CreateForm.cshtml",
+              "RelativeDocumentMoniker": "MVC_Project_FoodOrder\\Views\\FoodItems\\_CreateForm.cshtml",
+              "ToolTip": "F:\\R-56 Robin\\Projects\\MVC Projects\\ID-1279739\\MVC_Project_FoodOrder\\MVC_Project_FoodOrder\\Views\\FoodItems\\_CreateForm.cshtml",
+              "RelativeToolTip": "MVC_Project_FoodOrder\\Views\\FoodItems\\_CreateForm.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-05-05T06:03:51.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\R-56 Robin\\Projects\\MVC Projects\\ID-1279739\\MVC_Project_FoodOrder\\MVC_Project_FoodOrder\\Views\\FoodItems\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVC_Project_FoodOrder\\Views\\FoodItems\\Index.cshtml",
+              "ToolTip": "F:\\R-56 Robin\\Projects\\MVC Projects\\ID-1279739\\MVC_Project_FoodOrder\\MVC_Project_FoodOrder\\Views\\FoodItems\\Index.cshtml",
+              "RelativeToolTip": "MVC_Project_FoodOrder\\Views\\FoodItems\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-05-05T06:03:51.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "F:\\R-56 Robin\\Projects\\MVC Projects\\ID-1279739\\MVC_Project_FoodOrder\\MVC_Project_FoodOrder\\Migrations\\ContextB\\Configuration.cs",
+              "RelativeDocumentMoniker": "MVC_Project_FoodOrder\\Migrations\\ContextB\\Configuration.cs",
+              "ToolTip": "F:\\R-56 Robin\\Projects\\MVC Projects\\ID-1279739\\MVC_Project_FoodOrder\\MVC_Project_FoodOrder\\Migrations\\ContextB\\Configuration.cs",
+              "RelativeToolTip": "MVC_Project_FoodOrder\\Migrations\\ContextB\\Configuration.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwBoAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T06:03:51.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\R-56 Robin\\Projects\\MVC Projects\\ID-1279739\\MVC_Project_FoodOrder\\MVC_Project_FoodOrder\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVC_Project_FoodOrder\\Views\\Home\\Index.cshtml",
+              "ToolTip": "F:\\R-56 Robin\\Projects\\MVC Projects\\ID-1279739\\MVC_Project_FoodOrder\\MVC_Project_FoodOrder\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MVC_Project_FoodOrder\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAwB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-05-05T06:03:51.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "202401270637037_InitialCreate.cs",
+              "DocumentMoniker": "F:\\R-56 Robin\\Projects\\MVC Projects\\ID-1279739\\MVC_Project_FoodOrder\\MVC_Project_FoodOrder\\Migrations\\ContextA\\202401270637037_InitialCreate.cs",
+              "RelativeDocumentMoniker": "MVC_Project_FoodOrder\\Migrations\\ContextA\\202401270637037_InitialCreate.cs",
+              "ToolTip": "F:\\R-56 Robin\\Projects\\MVC Projects\\ID-1279739\\MVC_Project_FoodOrder\\MVC_Project_FoodOrder\\Migrations\\ContextA\\202401270637037_InitialCreate.cs",
+              "RelativeToolTip": "MVC_Project_FoodOrder\\Migrations\\ContextA\\202401270637037_InitialCreate.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T06:03:51.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\R-56 Robin\\Projects\\MVC Projects\\ID-1279739\\MVC_Project_FoodOrder\\MVC_Project_FoodOrder\\Views\\Aggregates\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVC_Project_FoodOrder\\Views\\Aggregates\\Index.cshtml",
+              "ToolTip": "F:\\R-56 Robin\\Projects\\MVC Projects\\ID-1279739\\MVC_Project_FoodOrder\\MVC_Project_FoodOrder\\Views\\Aggregates\\Index.cshtml",
+              "RelativeToolTip": "MVC_Project_FoodOrder\\Views\\Aggregates\\Index.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-05-05T06:03:51.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FoodItemsController.cs",
+              "DocumentMoniker": "F:\\R-56 Robin\\Projects\\MVC Projects\\ID-1279739\\MVC_Project_FoodOrder\\MVC_Project_FoodOrder\\Controllers\\FoodItemsController.cs",
+              "RelativeDocumentMoniker": "MVC_Project_FoodOrder\\Controllers\\FoodItemsController.cs",
+              "ToolTip": "F:\\R-56 Robin\\Projects\\MVC Projects\\ID-1279739\\MVC_Project_FoodOrder\\MVC_Project_FoodOrder\\Controllers\\FoodItemsController.cs",
+              "RelativeToolTip": "MVC_Project_FoodOrder\\Controllers\\FoodItemsController.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAIwDIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T06:03:51.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "F:\\R-56 Robin\\Projects\\MVC Projects\\ID-1279739\\MVC_Project_FoodOrder\\MVC_Project_FoodOrder\\Views\\FoodItems\\Create.cshtml",
+              "RelativeDocumentMoniker": "MVC_Project_FoodOrder\\Views\\FoodItems\\Create.cshtml",
+              "ToolTip": "F:\\R-56 Robin\\Projects\\MVC Projects\\ID-1279739\\MVC_Project_FoodOrder\\MVC_Project_FoodOrder\\Views\\FoodItems\\Create.cshtml",
+              "RelativeToolTip": "MVC_Project_FoodOrder\\Views\\FoodItems\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-05-05T06:03:51.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AggregatesController.cs",
+              "DocumentMoniker": "F:\\R-56 Robin\\Projects\\MVC Projects\\ID-1279739\\MVC_Project_FoodOrder\\MVC_Project_FoodOrder\\Controllers\\AggregatesController.cs",
+              "RelativeDocumentMoniker": "MVC_Project_FoodOrder\\Controllers\\AggregatesController.cs",
+              "ToolTip": "F:\\R-56 Robin\\Projects\\MVC Projects\\ID-1279739\\MVC_Project_FoodOrder\\MVC_Project_FoodOrder\\Controllers\\AggregatesController.cs",
+              "RelativeToolTip": "MVC_Project_FoodOrder\\Controllers\\AggregatesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T06:03:51.853Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

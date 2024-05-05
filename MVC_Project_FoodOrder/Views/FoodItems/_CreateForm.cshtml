@@ -1,0 +1,99 @@
+﻿@model MVC_Project_FoodOrder.ViewModels.FoodInputModel
+@using (Ajax.BeginForm("Create",
+"FoodItems", new { },
+new AjaxOptions
+{
+    HttpMethod = "POST",
+    InsertionMode = InsertionMode.Replace,
+    UpdateTargetId = "form-div",
+    OnSuccess = "onSuccess"
+},
+new { id = "frm", enctype = "multipart/form-data" }))
+{
+    <h2>Create new fooditem</h2>
+    <div class="form-group row mb-1">
+        @Html.LabelFor(x => x.CategoryId, new { @class = "col-form-label col-2 text-end" })
+        <div class="col-4">
+            @Html.DropDownListFor(x => x.CategoryId, new SelectList(ViewBag.Categories, "CategoryId", "CategoryName"), "Select category", new { @class = "form-select" })
+            @Html.ValidationMessageFor(x => x.CategoryId, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group row mb-1">
+        @Html.LabelFor(x => x.FoodName, new { @class = "col-form-label col-2 text-end" })
+        <div class="col-4">
+            @Html.TextBoxFor(x => x.FoodName, new { @class = "form-control" })
+            @Html.ValidationMessageFor(x => x.FoodName, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group row mb-1">
+        @Html.LabelFor(x => x.UnitPrice, new { @class = "col-form-label col-2 text-end" })
+        <div class="col-4">
+            @Html.TextBoxFor(x => x.UnitPrice, new { @class = "form-control", type = "number" })
+            @Html.ValidationMessageFor(x => x.UnitPrice, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group row mb-1">
+        @Html.LabelFor(x => x.Picture, new { @class = "col-form-label col-2 text-end" })
+        <div class="col-4">
+            @Html.TextBoxFor(x => x.Picture, new { @class = "form-control", type = "file" })
+            @Html.ValidationMessageFor(x => x.Picture, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group row mb-1">
+        <div class="col-4 offset-2">
+            <div class="form-check">
+                @Html.CheckBoxFor(x => x.Available)
+                <label class="form-check-label">
+                    Available ?
+                </label>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-6">
+        <div class="d-flex justify-content-between">
+            <h4>Orders</h4>
+            <button type="submit" name="act" value="add" class="btn btn-secondary btn-sm" formnovalidate>+</button>
+        </div>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Order Date</th>
+                    <th>Quantity</th>
+                    <th>Order Type</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @for (var i = 0; i < Model.Orders.Count; i++)
+                {
+                    <tr>
+                        <td>
+                            @Html.TextBoxFor(x => Model.Orders[i].OrderDate, new { @class = "form-control", type = "date" })
+                            @Html.ValidationMessageFor(x => Model.Orders[i].OrderDate, "", new { @class = "text-danger" })
+                        </td>
+                        <td>
+                            @Html.TextBoxFor(x => Model.Orders[i].Quantity, new { @class = "form-control", type = "number" })
+                            @Html.ValidationMessageFor(x => Model.Orders[i].Quantity, "", new { @class = "text-danger" })
+                        </td>
+                        <td>
+                            @Html.EnumDropDownListFor(x => Model.Orders[i].OrderType, new { @class = "form-select" })
+                            @Html.ValidationMessageFor(x => Model.Orders[i].OrderType, "", new { @class = "text-danger" })
+                        </td>
+                        <td>
+                            <button type="submit" name="act" value="remove_@i" class="btn btn-danger btn-sm" formnovalidate>Remove</button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <div class="col-4 offset-2">
+        <button type="submit" name="act" value="insert" class="btn btn-primary">Save</button>
+    </div>
+    <div class="">
+        @Html.ActionLink("Go to Previous page", "Index", "FoodItems", new { }, new { @class = "nav-link d-flex justify-content-center" })
+    </div>
+}
+

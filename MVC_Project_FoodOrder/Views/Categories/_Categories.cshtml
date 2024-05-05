@@ -1,0 +1,49 @@
+﻿@model IEnumerable<MVC_Project_FoodOrder.Models.Category>
+@using X.PagedList
+@using X.PagedList.Mvc
+@using X.PagedList.Mvc.Common
+
+<h2>Categories</h2>
+<div class="d-flex justify-content-end mb-1">
+    <a class="btn btn-outline-dark" href="@Url.Action("Create", "Categories")"><i class="bi bi-plus-circle-fill"></i></a>
+
+    @*@Html.ActionLink("Create New", "Create", "Categories", new { }, new { @class = "btn btn-primary btn-sm" })*@
+</div>
+<div class="col-6 mx-auto">
+    <table class="table table-bordered">
+        <thead class="table-primary">
+            <tr>
+                <th>Category Name</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var c in Model)
+            {
+                <tr>
+                    <td>@c.CategoryName</td>
+                    <td>
+                        <a class="btn btn-warning" href="@Url.Action("Edit", "Categories", new {id=c.CategoryId})"><i class="bi bi-pen"></i></a>
+                        @*@Html.ActionLink("Edit", "Edit", "Categories", new { id = c.CategoryId }, new { @class = "btn btn-primary btn-sm" })*@
+                        <button type="button" data-pk="@c.CategoryId" class="btn btn-danger  del"><i class="bi bi-trash-fill"></i></button>
+                    </td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<div class="d-flex justify-content-end">
+
+    @Html.PagedListPager((IPagedList)Model, pg => Url.Action("ModelsTable", "Categories", new { pg = pg }), PagedListRenderOptions.EnableUnobtrusiveAjaxReplacing(new PagedListRenderOptions
+    {
+        UlElementClasses = new string[] { "pagination", "pagination-sm" },
+        LiElementClasses = new string[] { "page-item" },
+        PageClasses = new string[] { "page-link" },
+        DisplayLinkToPreviousPage = PagedListDisplayMode.Always,
+        DisplayLinkToNextPage = PagedListDisplayMode.Always
+    },
+    new AjaxOptions() { HttpMethod = "GET", UpdateTargetId = "placeholder" }))
+</div>
+

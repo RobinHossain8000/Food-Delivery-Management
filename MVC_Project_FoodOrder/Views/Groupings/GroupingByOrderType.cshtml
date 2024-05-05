@@ -1,0 +1,52 @@
+﻿@model IEnumerable<MVC_Project_FoodOrder.ViewModels.GroupedData>
+
+@{
+    ViewBag.Title = "GroupingByOrderType";
+}
+
+<h1>Grouping by orderType</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Key</th>
+            <th>Data</th>
+        </tr>
+
+    </thead>
+    <tbody>
+        @foreach (var x in Model)
+        {
+            <tr>
+                <td>
+                    @x.Key
+                </td>
+                <td>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Order Date</th>
+                                <th>Quantity</th>
+                                <th>Order Type</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var s in x.Data)
+                            {
+                                <tr>
+                                    <td>@s.OrderDate.ToString("yyyy-MM-dd")</td>
+                                    <td>@s.Quantity</td>
+                                    <td>@s.OrderType</td>
+                                </tr>
+                            }                           
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        }
+
+    </tbody>
+</table>
+
+
+
+

@@ -1,0 +1,44 @@
+﻿@model IEnumerable<MVC_Project_FoodOrder.Models.FoodItem>
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="row">
+    <div class="col-12">
+        <h2>Aggregates</h2>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>
+                        Aggregates Function
+                    </th>
+                    <th>Result</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Count</td>
+                    <td>@Model.Count()</td>
+                </tr>
+                <tr>
+                    <td>Max</td>
+                    <td>Max Price: @Model.Max(x => x.UnitPrice)</td>
+                </tr>
+                <tr>
+                    <td>Min</td>
+                    <td>Min Price: @Model.Min(x => x.UnitPrice)</td>
+                </tr>
+                <tr>
+                    <td>Average</td>
+                    <td>Avg. Price: @Model.Average(x => x.UnitPrice)</td>
+                </tr>
+                <tr>
+                    <td>Sum</td>
+                    <td>Sum Price: @Model.Sum(x => x.UnitPrice)</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+

@@ -1,0 +1,88 @@
+﻿@model IEnumerable<MVC_Project_FoodOrder.Models.FoodItem>
+@using X.PagedList
+@using X.PagedList.Mvc
+@using X.PagedList.Mvc.Common
+
+<table class="table table-bordered">
+    <thead class="table-primary">
+        <tr>
+            <th></th>
+            <th></th>
+            <th>Category</th>
+            <th>Food Name</th>
+            <th>Unit Price</th>
+            <th>Available?</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var f in Model)
+        {
+
+            <tr style="width:40px;text-align:center">
+                <td>
+                    <button class="btn show"><i class="bi bi-caret-right"></i></button>
+                    <button class="btn hide" style="display:none"><i class="bi bi-caret-up"></i></button>
+                </td>
+                <td style="width:45px;text-align:center"><img src="~/Pictures/@f.Picture" class="rounded-circle" style="width:40px" /></td>
+                <td>@f.Category.CategoryName</td>
+                <td>@f.FoodName</td>
+                <td>@f.UnitPrice.ToString("0.00")</td>
+                <td>@(f.Available ? "Yes" : "No")</td>
+                <td>
+                    @*@Html.ActionLink("Edit", "Edit", "FoodItems", new { id = f.FoodItemId }, new { @class = "btn btn-warning btn-sm" })*@
+                    <a class="btn btn-outline-warning" href="@Url.Action("Edit", "FoodItems", new { id = f.FoodItemId})"><i class="bi bi-pen"></i></a>
+                    <button data-pk="@f.FoodItemId" class="btn btn-danger del"><i class="bi bi-trash"></i></button>
+                </td>
+            </tr>
+            <tr style="display:none">
+
+                <td></td>
+                <td colspan="6">
+                    <div class="d-flex justify-content-between">
+                        <h4>Orders</h4>
+                        @*@Html.ActionLink("Create", "CreateOrder", "FoodItems", new { id = f.FoodItemId }, new { @class = "btn bi bi-plus-circle" })*@
+                        <a class="btn btn-outline-info btn-sm" href="@Url.Action("CreateOrder", "FoodItems")"><i class="bi bi-plus-circle-fill"></i></a>
+                    </div>
+                    <table class="table table-bordered">
+                        <thead class="table-secondary">
+                            <tr>
+                                <th>Order Date</th>
+                                <th>Quantity</th>
+                                <th>Order Type</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var o in f.Orders)
+                            {
+                                <tr>
+                                    <td>@o.OrderDate.ToString("yyyy-MM-dd")</td>
+                                    <td>@o.Quantity</td>
+                                    <td>@o.OrderType</td>
+                                    <td>
+                                        <button data-pk="@o.OrderId" class="btn btn-outline-danger btn-sm dels"><i class="bi bi-trash"></i></button>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div class="d-flex justify-content-end">
+
+    @Html.PagedListPager((IPagedList)Model, pg => Url.Action("FoodItemTable", "FoodItems", new { pg = pg }), PagedListRenderOptions.EnableUnobtrusiveAjaxReplacing(new PagedListRenderOptions
+{
+    UlElementClasses = new string[] { "pagination", "pagination-sm" },
+    LiElementClasses = new string[] { "page-item" },
+    PageClasses = new string[] { "page-link" },
+    DisplayLinkToPreviousPage = PagedListDisplayMode.Always,
+    DisplayLinkToNextPage = PagedListDisplayMode.Always
+},
+    new AjaxOptions() { HttpMethod = "GET", UpdateTargetId = "table-div", LoadingElementId= "spinner" }))
+</div>

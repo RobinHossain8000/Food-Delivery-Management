@@ -1,0 +1,41 @@
+﻿@model IEnumerable<MVC_Project_FoodOrder.Models.Category>
+
+@{
+    ViewBag.Title = "Index";
+}
+<div class="row">
+    <div class="col-12" id="placeholder">
+
+        @Html.Action("ModelsTable", "Categories")
+    </div>
+</div>
+@section styles{
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" />
+}
+@section scripts
+{
+    <script src="~/Scripts/jquery-3.7.1.js"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
+
+    <script>
+        $(document).on("click", "button.del", function () {
+            var id = $(this).data("pk");
+            var trC = $(this).closest('tr');
+           
+            if (confirm("Are you sure to delete?\nCtegory will be deleted.")) {
+                $.ajax({
+                    url: "/Categories/Delete/" + id,
+                    method: "post",
+                    dataType: "json",
+                    success: r => {
+                        if (r.success == true) {
+                            trC.remove();
+                           
+                        }
+                    }
+                })
+            }
+        });
+    </script>
+}
+
